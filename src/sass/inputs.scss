@@ -1,0 +1,23 @@
+input[type="submit"] {
+    font-family: 'Space Mono';
+    color: white;
+    background-color: $main-color;
+    margin: 10px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px $main-color solid;
+}
+
+input[type="text"] {
+    font-family: 'Space Mono';
+    flex-grow: .25;
+    color: $main-color;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px $main-color solid;
+}
